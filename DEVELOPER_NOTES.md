@@ -1,5 +1,25 @@
 # Developer Notes
 
+## Common Commit Tags:
+
+- `feat`: New feature or enhancement
+- `fix`: Bug fix or issue resolution
+- `chore`: Routine tasks or maintenance
+- `refactor`: Code improvements (no functionality change)
+- `docs`: Documentation updates
+- `style`: Code style or formatting changes
+- `test`: Tests additions or modifications
+- `build`: Build system or external dependencies changes
+- `perf`: Performance improvements
+- `ci`: Continuous integration configuration changes
+- `revert`: Revert a previous commit
+- `security`: Security-related changes or fixes
+- `release`: Marks a release or version update
+
+## Enabling GitHub Workflow
+
+https://github.com/robmllze/YOUR_PROJECT_NAME/settings/actions
+
 ## Public Repo Setup
 
 ```sh
@@ -8,8 +28,8 @@ gh auth login
 git init
 git add .
 git commit -m "Initial commit"
-gh repo create dart_package_template --public
-git remote add origin https://github.com/robmllze/dart_package_template.git
+gh repo create YOUR_PROJECT_NAME --public
+git remote add origin https://github.com/robmllze/YOUR_PROJECT_NAME.git
 git push -u origin main
 ```
 
