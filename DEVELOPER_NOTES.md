@@ -8,7 +8,7 @@ gh auth login
 git init
 git add .
 git commit -m "Initial commit"
-gh repo create dart_package_template--description "A template for Dart packages" --private false --source=. --push
+gh repo create dart_package_template --public
 git remote add origin https://github.com/robmllze/dart_package_template.git
 git push -u origin main
 ```
