@@ -7,7 +7,6 @@
 ## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ##.title~
 
-
 name: dart_package_template
 description: A starting point for Dart libraries or applications.
 version: 0.1.0
@@ -16,15 +15,23 @@ repository: https://github.com/robmllze/dart_package_template
 ## -----------------------------------------------------------------------------
 
 environment:
-  sdk: ^3.5.0-318.0.dev
+  sdk: ^3.5.0
+  # flutter: ">=1.17.0"
 
 ## -----------------------------------------------------------------------------
 
 dependencies:
-  # path: ^1.8.0
+  # flutter:
+  #   sdk: flutter
 
 ## -----------------------------------------------------------------------------
 
 dev_dependencies:
   lints: ^4.0.0
   test: ^1.24.0
+  # flutter_test:
+  #   sdk: flutter
+  # flutter_lints: ^4.0.0
+## -----------------------------------------------------------------------------
+
+# flutter:

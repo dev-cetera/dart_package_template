@@ -1,6 +1,6 @@
 # Developer Notes
 
-## Common Commit Tags:
+## Commmit Tag Descriptions
 
 - `feat`: New feature or enhancement
 - `fix`: Bug fix or issue resolution
