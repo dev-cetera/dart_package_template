@@ -1,14 +1,16 @@
 # Dart Package Template
 
+Dart & Flutter Packages by DevCetra.com & contributors.
+
 [![pub package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
 
 ## Summary
 
 <!-- Write here what this package can do in a nutshell-->
 
-## Usage
+## Usage Example
 
-Please refer to the [API reference](https://pub.dev/documentation/dart_package_template/) for more information.
+For a full feature set, please refer to the [API reference](https://pub.dev/documentation/dart_package_template/).
 
 ## Installation
 
@@ -32,4 +34,4 @@ This is an open-source project, and contributions are welcome from everyone, reg
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](https://raw.githubusercontent.com/robmllze/xyz_utils/main/LICENSE) for more information.
+This project is released under the MIT License. See [LICENSE](https://raw.githubusercontent.com/robmllze/dart_package_template/main/LICENSE) for more information.
