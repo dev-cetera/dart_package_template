@@ -7,19 +7,14 @@
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //.title~
 
-//import 'package:df_log/df_log.dart';
-import 'package:test/test.dart';
+import '_platform_none.dart' as platform;
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-void main() {
-  group('A group of tests', () {
-    setUp(() {
-      // Additional setup goes here.
-    });
+class Platform extends platform.Platform {
+  const Platform() : super();
+  static const instance = Platform();
 
-    test('First Test', () {
-      expect(true, isTrue);
-    });
-  });
+  @override
+  bool get isWeb => true;
 }

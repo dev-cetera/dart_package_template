@@ -7,31 +7,23 @@
 ## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ##.title~
 
-name: dart_package_template
-description: A starting point for Dart or Flutter packages.
+name: df_log
+description: A package that provides logging utilities for better debugging.
 version: 0.1.0
-repository: https://github.com/robmllze/dart_package_template
+repository: https://github.com/robmllze/df_log
 
 ## -----------------------------------------------------------------------------
 
 environment:
   sdk: ">=3.0.0 < 4.0.0"
-  # flutter: ">=1.17.0"
 
 ## -----------------------------------------------------------------------------
 
 dependencies:
-  # flutter:
-  #   sdk: flutter
+  path: ">=1.0.0 <2.0.0"
 
 ## -----------------------------------------------------------------------------
 
 dev_dependencies:
   lints: ^4.0.0
   test: ^1.24.0
-  # flutter_test:
-  #   sdk: flutter
-  # flutter_lints: ^4.0.0
-## -----------------------------------------------------------------------------
-
-# flutter:
