@@ -2,7 +2,10 @@
 
 Dart & Flutter Packages by DevCetra.com & contributors.
 
-[![pub package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
+[![Pub Package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/robmllze/dart_package_template/main/LICENSE)
+
+---
 
 ## Summary
 
@@ -15,6 +18,8 @@ For a full feature set, please refer to the [API reference](https://pub.dev/docu
 ## Installation
 
 Use this package as a dependency by adding it to your `pubspec.yaml` file (see [here](https://pub.dev/packages/dart_package_template/install)).
+
+---
 
 ## Contributing and Discussions
 
@@ -31,6 +36,8 @@ This is an open-source project, and contributions are welcome from everyone, reg
 ### Chief Maintainer:
 
 📧 Email _Robert Mollentze_ at robmllze@gmail.com
+
+---
 
 ## License
 
