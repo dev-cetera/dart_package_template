@@ -13,11 +13,13 @@ Dart & Flutter Packages by DevCetra.com & contributors.
 
 <!-- TODO: Write summary here -->
 
-For a full feature set, please refer to the [API reference](https://pub.dev/documentation/dart_package_template/).
+<!-- For a full feature set, please refer to the [API reference](https://pub.dev/documentation/dart_package_template/). -->
 
 ## Usage Example
 
 <!-- TODO: Write usage example here -->
+
+Unavailable. Please check in later.
 
 ## Installation
 
