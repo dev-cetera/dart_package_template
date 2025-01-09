@@ -10,7 +10,11 @@
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //.title~
 
-/// A package inspired by Rust and functional programming to bring more structure and clarity to your Dart applications.
+/// Support for doing something awesome.
+///
+/// More dartdocs go here.
 library;
 
 export 'src/_index.g.dart';
+
+// TODO: Export any libraries intended for clients of this package.
