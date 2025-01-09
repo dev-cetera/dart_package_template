@@ -3,8 +3,8 @@
 
 Dart & Flutter Packages by dev-cetera.com & contributors.
 
-[![Pub Package](https://img.shields.io/pub/v/df_safer_dart.svg)](https://pub.dev/packages/df_safer_dart)
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dev-cetera/df_safer_dart/main/LICENSE)
+[![Pub Package](https://img.shields.io/pub/v/dart_package_template.svg)](https://pub.dev/packages/dart_package_template)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/dev-cetera/dart_package_template/main/LICENSE)
 
 ---
 
@@ -75,4 +75,4 @@ If you're enjoying this package and find it valuable, consider showing your appr
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](https://raw.githubusercontent.com/dev-cetera/df_safer_dart/main/LICENSE) for more information.
+This project is released under the MIT License. See [LICENSE](https://raw.githubusercontent.com/dev-cetera/dart_package_template/main/LICENSE) for more information.
