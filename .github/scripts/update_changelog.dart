@@ -40,9 +40,10 @@ void main(List<String> args) {
       ),
     );
   }
-  contents = '# Changelog\n\n${(sections.toList()..sort((a, b) {
-      return compareVersions(b.version, a.version);
-    })).map((e) => e.toString()).join('\n')}';
+  contents =
+      '# Changelog\n\n${(sections.toList()..sort((a, b) {
+        return compareVersions(b.version, a.version);
+      })).map((e) => e.toString()).join('\n')}';
 
   file.writeAsStringSync(contents);
   print('Changelog updated with version $version.');
@@ -59,8 +60,9 @@ Set<_VersionSection> extractSections(String contents) {
     final end = i + 1 < allVersionMatches.length ? allVersionMatches[i + 1].start : contents.length;
     final sectionContents = contents.substring(start, end).trim();
     final lines = sectionContents.split('\n').where((line) => line.isNotEmpty).toList();
-    final version =
-        allVersionMatches[i].group(0)!.substring(4, allVersionMatches[i].group(0)!.length - 1);
+    final version = allVersionMatches[i]
+        .group(0)!
+        .substring(4, allVersionMatches[i].group(0)!.length - 1);
     var releasedAt = DateTime.now().toUtc();
     final updates = <String>{};
     final old = lines
@@ -71,19 +73,12 @@ Set<_VersionSection> extractSections(String contents) {
         .where((e) => e.isNotEmpty);
     for (var line in old) {
       if (line.contains('Released @')) {
-        final temp = line.split('Released @').last.trim();
-        releasedAt = DateTime.tryParse(temp) ?? releasedAt;
+        releasedAt = parseReleaseDate(line);
       } else {
         updates.add(line);
       }
     }
-    results.add(
-      _VersionSection(
-        version: version,
-        releasedAt: releasedAt,
-        updates: updates,
-      ),
-    );
+    results.add(_VersionSection(version: version, releasedAt: releasedAt, updates: updates));
   }
 
   return results;
@@ -104,11 +99,8 @@ class _VersionSection {
   //
   //
 
-  _VersionSection({
-    required this.version,
-    required this.releasedAt,
-    this.updates = const {},
-  });
+  _VersionSection({required this.version, required this.releasedAt, Set<String>? updates})
+    : this.updates = updates ?? {};
 
   //
   //
@@ -154,4 +146,20 @@ int compareVersions(String version1, String version2) {
     if (part1 < part2) return -1;
   }
   return 0;
+}
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+DateTime parseReleaseDate(String line) {
+  if (line.contains('Released @')) {
+    final temp = line.split('Released @').last.trim().replaceAll(' (UTC)', '');
+    final parts = temp.split('/');
+    if (parts.length == 2) {
+      final month = int.tryParse(parts[0]) ?? 1;
+      final year = int.tryParse(parts[1]) ?? DateTime.now().year;
+      return DateTime.utc(year, month);
+    }
+  }
+
+  return DateTime.now().toUtc();
 }
