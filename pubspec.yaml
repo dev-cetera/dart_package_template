@@ -15,7 +15,7 @@ repository: https://github.com/robmllze/dart_package_template
 funding:
   - https://www.buymeacoffee.com/dev_cetera
 description: A starting point for Dart or Flutter packages.
-version: 0.1.0
+version: 0.1.1
 topics:
   - add
   - your
