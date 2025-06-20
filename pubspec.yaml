@@ -11,6 +11,7 @@
 ##.title~
 
 name: dart_package_template
+homepage: https://dev-cetera.com/
 repository: https://github.com/robmllze/dart_package_template
 funding:
   - https://www.buymeacoffee.com/dev_cetera
