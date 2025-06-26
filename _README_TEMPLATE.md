@@ -5,9 +5,9 @@ Dart & Flutter Packages by dev-cetera.com & contributors.
 
 [![sponsor](https://img.shields.io/badge/sponsor-grey?logo=github-sponsors)](https://github.com/sponsors/dev-cetera)
 [![patreon](https://img.shields.io/badge/patreon-grey?logo=patreon)](https://www.patreon.com/c/RobertMollentze)
-[![pub](https://img.shields.io/pub/v/{{{PACKAGE}}.svg)](https://pub.dev/packages/{{{PACKAGE}})
-[![tag](https://img.shields.io/badge/tag-v{{{VERSION}}}-purple?logo=github)](https://github.com/dev-cetera/{{{PACKAGE}}/tree/v{{{VERSION}}})
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dev-cetera/{{{PACKAGE}}/main/LICENSE)
+[![pub](https://img.shields.io/pub/v/{{{PACKAGE}}}.svg)](https://pub.dev/packages/{{{PACKAGE}}})
+[![tag](https://img.shields.io/badge/tag-v{{{VERSION}}}-purple?logo=github)](https://github.com/dev-cetera/{{{PACKAGE}}}/tree/v{{{VERSION}}})
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dev-cetera/{{{PACKAGE}}}/main/LICENSE)
 
 ---
 
