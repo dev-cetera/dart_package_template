@@ -1,9 +1,10 @@
 ##.title
 ## ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ##
-## Dart/Flutter (DF) Packages by dev-cetera.com & contributors. The use of this
-## source code is governed by an MIT-style license described in the LICENSE
-## file located in this project's root directory.
+## Copyright © dev-cetera.com & contributors.
+##
+## The use of this source code is governed by an MIT-style license described in
+## the LICENSE file located in this project's root directory.
 ##
 ## See: https://opensource.org/license/mit
 ##
@@ -12,11 +13,11 @@
 
 name: dart_package_template
 homepage: https://dev-cetera.com/
-repository: https://github.com/robmllze/dart_package_template
+repository: https://github.com/t0mb3rr/dart_package_template
 funding:
   - https://www.buymeacoffee.com/dev_cetera
-  - https://www.patreon.com/c/RobertMollentze
-  - https://github.com/sponsors/robmllze
+  - https://www.patreon.com/c/t0mb3rr
+  - https://github.com/sponsors/t0mb3rr
 description: A starting point for Dart or Flutter packages.
 version: 0.1.1
 topics:
